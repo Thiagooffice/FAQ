@@ -98,6 +98,19 @@ main{
         margin: 30px 0;
     }
 }
+
+/*ESTILOS DO ITEM ATIVO*/
+.faq .items .item.ativo h2{
+    font-weight: 700;
+}
+.faq .items .item.ativo .resposta{
+    display: none;
+}
+.faq .items .item.ativo{
+    background-image: url(./imagens/icone-seta-pra-cima.png);
+}
+
+
 @media(max-width: 425px){
     .faq{
         height: 540px;
